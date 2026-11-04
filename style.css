@@ -1,0 +1,70 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+button {
+    border: none;
+    padding: 0;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  }
+
+.container {
+      display: flex;
+      align-items: center;
+    }
+
+
+  .header-list {
+    display: flex ;
+   gap: 50px;
+    margin-left: 93px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .header-page {
+      position: relative;
+
+  }
+
+   .header-page:hover {
+  }
+
+  .header-page::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -32px;
+  width: 0;
+  height: 4px;
+  border-radius: 2px;
+}
+
+
+.header-contacts {
+}
+
+
+  .header-contacts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    }
